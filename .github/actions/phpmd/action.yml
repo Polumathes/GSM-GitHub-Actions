@@ -1,0 +1,6 @@
+name: 'phpmd'
+description: 'Perform code-quality analysis'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+

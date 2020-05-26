@@ -1,0 +1,5 @@
+name: 'phpunit'
+description: 'Perform phpunit tests'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
