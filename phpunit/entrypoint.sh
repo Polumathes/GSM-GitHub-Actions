@@ -4,4 +4,4 @@ sh -c "echo '---Installing dependencies---'"
 composer install
 
 sh -c "echo '---Running unit tests---'"
-./vendor/bin/phpunit ./tests/
+./vendor/bin/phpunit $TESTS_DIR
