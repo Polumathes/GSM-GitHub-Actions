@@ -1,0 +1,6 @@
+name: 'phpcs'
+description: 'Perform code-style analysis'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+
